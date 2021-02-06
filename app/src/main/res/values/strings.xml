@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GU QR Scanner</string>
+    <string name="qr_generator">QR Generator</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="flash">Flash</string>
+    <string name="enter_text_for_qr_generation">Enter Text for Qr Generation</string>
+    <string name="generate">Generate</string>
+    <string name="qr_image">Qr Image</string>
+    <string name="save">Save</string>
+    <string name="developer_card">Developer Card</string>
+    <string name="developerimage">Developer Image</string>
+    <string name="project_description">Project description</string>
+    <string name="thank_you">Thank You</string>
+    <string name="logo">Logo</string>
+    <string name="qr_scanner_and_generator">QR Scanner and Generator</string>
+    <string name="vikas_198705_knit_ac_in">Vikas.198705@knit.ac.in</string>
+    <string name="this_application_is_developed_by_vikas_kumar">This Application is Developed by vikas kumar.</string>
+</resources>

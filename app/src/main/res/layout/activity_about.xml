@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context=".About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        android:padding="40dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer_card"
+            android:textSize="22sp"
+            android:textColor="@color/bgColor"
+            android:textAlignment="center"/>
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/dc"
+            android:layout_width="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/developerimage" />
+         <TextView
+             android:id="@+id/name"
+             android:layout_below="@+id/Image"
+             android:layout_width="match_parent"
+             android:text="Vikas Kumar"
+             android:textAlignment="center"
+             android:textSize="24sp"
+             android:layout_marginTop="20dp"
+             android:textColor="@color/bgColor"
+             android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_below="@+id/name"
+                android:layout_width="match_parent"
+                android:text="@string/vikas_198705_knit_ac_in"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/bgColor"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/head"
+                android:layout_below="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/project_description"
+                />
+            <TextView
+                android:id="@+id/description"
+                android:layout_below="@+id/head"
+                android:layout_width="match_parent"
+                android:text="@string/this_application_is_developed_by_vikas_kumar"
+                android:textAlignment="center"
+                android:padding="16dp"
+                android:textSize="24sp"
+                android:textColor="@color/bgColor"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/thank"
+                android:layout_below="@+id/description"
+                android:layout_width="match_parent"
+                android:text="@string/thank_you"
+                android:textAlignment="center"
+                android:padding="16dp"
+                android:textSize="24sp"
+                android:textColor="@color/bgColor"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

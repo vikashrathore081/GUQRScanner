@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QrGenerate">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background=" #081B33"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qr_generator"
+
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="50sp"/>
+
+        <EditText
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_below="@+id/heading"
+            android:layout_marginTop="20dp"
+            android:padding="30dp"
+            android:textSize="18sp"
+            android:hint="@string/enter_text_for_qr_generation"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:autofillHints="GALGOTIAS UNIVERSITY" />
+        <Button
+            android:id="@+id/generate"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Text"
+            android:layout_width="match_parent"
+            android:text="@string/generate"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_below="@+id/generate"
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:layout_height="300dp"
+            android:background="@color/black"
+            android:contentDescription="@string/qr_image" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/image"
+            android:layout_width="match_parent"
+            android:text="@string/save"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>
